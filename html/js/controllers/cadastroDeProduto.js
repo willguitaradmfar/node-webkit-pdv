@@ -7,6 +7,5 @@ angular.module('project')
 
 .controller('CadastroDeprodutoCtrl', function ($scope) {
 
-	
 
-})
+});
