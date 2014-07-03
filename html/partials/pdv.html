@@ -1,0 +1,52 @@
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		  <table class="table">
+		  	<tbody>
+		  			<tr>
+					  <td class="active" >Código</td>
+					  <td class="success" data-ng-bind="venda.codigo"></td>
+					</tr>
+				  	<tr>
+					  <td class="active" >Qtde</td>
+					  <td class="success" data-ng-bind="venda.vendadetalhe.length"></td>
+					</tr>
+
+				</tbody>
+		  </table>	  
+
+	  </div>
+	  
+	  <div class="col-md-8">	  	
+		  <table class="table">
+		   <thead>
+			  	<tr>
+				  <th class="active">CÓD</td>
+				  <th class="success">PRODUTO</td>
+				  <th class="warning">QTDE</td>
+				  <th class="danger">PREÇO</td>				  
+				</tr>
+			</thead>
+		  <tbody>
+			  	<tr data-ng-repeat="vendadetalhe in venda.vendadetalhe">
+				  <td class="active" data-ng-bind="vendadetalhe.codigo"></td>
+				  <td class="success" data-ng-bind="vendadetalhe.nome"></td>
+				  <td class="warning" data-ng-bind="vendadetalhe.qtde"></td>
+				  <td class="danger" data-ng-bind="vendadetalhe.preco | currency:'R$ '"></td>
+				</tr>
+			</tbody>
+		  </table>
+	  </div>
+
+	  <div class="col-md-12 botton">
+	    <div class="input-group">
+	      <input type="text" class="form-control">
+	      <span class="input-group-btn">
+	        <button class="btn btn-default" type="button">REGISTRAR</button>
+	      </span>
+	    </div>
+	  </div>
+	</div>
+</div>

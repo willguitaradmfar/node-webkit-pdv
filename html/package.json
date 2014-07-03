@@ -1,0 +1,11 @@
+{
+  "name": "desktop",
+  "description": "Desktop application",
+  "version": "1.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "width": 1024,
+    "height": 768
+  }
+}
