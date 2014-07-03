@@ -1,0 +1,17 @@
+{
+  "name": "node-webkit-pdv",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "~3.8.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "William Lima Pereira",
+  "license": "BSD",
+  "gitHead": "ad5fe832be115ed5ebc4cebcc29d45d8cde93b9b"
+}
