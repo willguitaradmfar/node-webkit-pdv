@@ -27,7 +27,6 @@ var ProdutoSchema = new Schema({
     preco: {
         type: Number
     }
-
     
 });
 
